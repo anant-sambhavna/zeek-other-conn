@@ -1,0 +1,5 @@
+1.0.0 | 2026-10-07
+
+  * Initial public release.
+  * Logs non-TCP/UDP/ICMP IP traffic and pure L2 / non-IP Ethernet frames
+    to other_conn.log, aggregated into bidirectional flows.

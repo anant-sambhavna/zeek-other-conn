@@ -1,0 +1,12 @@
+# Zeek runtime output
+*.log
+.state/
+.cache/
+
+# btest artifacts
+tests/.tmp/
+tests/Baseline/*/.diag
+
+# Editor / OS
+.DS_Store
+*.swp
