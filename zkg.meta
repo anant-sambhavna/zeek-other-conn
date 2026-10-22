@@ -8,4 +8,5 @@ description = Logs the connections that Zeek's core conn.log does not record:
 tags = conn, logging, layer2, ethernet, vlan, non-ip, flow
 script_dir = scripts
 test_command = cd tests && btest -c btest.cfg
-version_constraint = >=5.0.0
+depends =
+  zeek >= 5.0.0
