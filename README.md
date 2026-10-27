@@ -48,7 +48,7 @@ L4-only `conn.log` fields (`service`, `conn_state`, `missed_bytes`, `history`,
 ## Installation
 
 ```sh
-zkg install https://github.com/sndpbhavyaa/zeek-other-conn
+zkg install https://github.com/anant-sambhavna/zeek-other-conn
 ```
 
 Or from a local clone:
