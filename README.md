@@ -10,8 +10,10 @@ else is invisible in `conn.log`. This package fills that gap by aggregating:
 * **Pure L2 / non-IP Ethernet frames** — ARP, LLDP, STP, PROFINET, EtherCAT,
   and any other non-IP EtherType.
 
-Frames are grouped into **bidirectional flows** (A→B and B→A collapse into one
-record), accumulated over a flush interval, and written to `other_conn.log`.
+Frames are grouped into flows and written to `other_conn.log`, one row per
+flow. As in `conn.log`, both directions of a conversation map to a single row,
+with per-direction counts kept separately in the `orig_*` and `resp_*` fields.
+Flows are accumulated and flushed every flush interval.
 
 ## What it logs
 
