@@ -1,3 +1,9 @@
+1.0.X | 2026-11-19
+  * source and dest port remove as not applicable for most L2 and Other IP protocol
+  * uid in conn.log format with prifix OC
+  * orig_bytes,orig_ip_bytes - same value frame bytes - eht header len same as conn.log
+    similarly for resp_bytes,resp_ip_bytes 
+
 1.0.0 | 2026-10-07
 
   * Initial public release.
